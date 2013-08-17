@@ -27,7 +27,7 @@
 }
 
 - (IBAction)pressClear:(UIButton *)sender {
-    [self updateAnswer:[sender currentTitle]];
+    [self updateAnswer:@""];
 }
 
 - (IBAction)pressDivide:(UIButton *)sender {
