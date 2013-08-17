@@ -26,5 +26,6 @@
 - (IBAction)press7:(UIButton *)sender;
 - (IBAction)press8:(UIButton *)sender;
 - (IBAction)press9:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UILabel *labelLastEvent;
 
 @end
